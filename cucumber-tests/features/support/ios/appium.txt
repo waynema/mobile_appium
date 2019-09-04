@@ -3,6 +3,6 @@ platformName = "iOS"
 deviceName = "iPhone X"
 platformVersion = "12.4"
 automationName = "XCUITest"
-app = "/Users/wayne/Library/Developer/Xcode/DerivedData/Krikey-egbpstsbcerrucbpoewmezktzksa/Build/Products/Debug-iphonesimulator/Krikey.app"
+app = "~/Library/Developer/Xcode/DerivedData/Krikey-egbpstsbcerrucbpoewmezktzksa/Build/Products/Debug-iphonesimulator/Krikey.app"
 bundleId = "SL.Krikey"
 newCommandTimeout = 3600
