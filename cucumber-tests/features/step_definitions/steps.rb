@@ -28,7 +28,7 @@ Then(/^I should not see "(.*?)"$/) do |data|
 end
 
 Then(/^I should see "(.*?)"$/) do |data|
-  found_text = wait { find(data) }
+  found_text = wait(60) { find(data) }
   expect(found_text.enabled? || found_text.displayed?).to be true
 end
 
@@ -62,6 +62,7 @@ When(/^I clear and fill in searchbox "(.*?)" with "(.*?)"$/) do |sbox, data|
   search_box = driver.find_element(:class_name, sbox)
   search_box.clear
   search_box.send_keys data
+  search_box.send_keys :return
 end
 
 Then(/^I should see message$/) do

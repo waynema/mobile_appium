@@ -6,6 +6,7 @@ Feature: Search
 
     @ios
     Scenarios:
-      | SearchWords        | Result       |
-      | Taylor\n           | Taylor Swift |
-      | Camilla\n          | Camilla      |
+      | SearchWords  | Result         |
+      | Taylor       | Taylor Swift   |
+      | Camilla      | Camila Cabello |
+      | Chopin       | Classical      |
