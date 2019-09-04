@@ -1,0 +1,13 @@
+[caps]
+platformName = "iOS"
+deviceName = "iPhone XS Max"
+platformVersion = "12.4"
+automationName = "XCUITest"
+app = "/Users/wayne/Library/Developer/Xcode/DerivedData/Krikey-egbpstsbcerrucbpoewmezktzksa/Build/Products/Debug-iphonesimulator/Krikey.app"
+bundleId = "SL.Krikey"
+newCommandTimeout = 3600
+noReset = true
+fullRest = false
+
+[appium_lib]
+port = 4723

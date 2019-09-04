@@ -1,0 +1,8 @@
+source 'https://www.rubygems.org'
+
+gem 'appium_lib'
+gem 'cucumber'
+gem 'pry'
+gem 'pry-coolline'
+gem 'robocop'
+gem 'rspec'
