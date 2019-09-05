@@ -42,7 +42,7 @@ Run tests:
         
     It's easy to integrate the appium ruby cucumber tests into the CI tools like Jenkins.
     Setup the Ruby environment with the Jenkins user and install the necessary plugins like cucumber 
-    and cucumber reports etc and specify the appropriate commands in the tool.  The jJnkins CI
+    and cucumber reports etc and specify the appropriate commands in the tool.  The Jenkins CI
     run reports will be displayed after each run.
     
     
