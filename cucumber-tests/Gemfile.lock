@@ -1,7 +1,7 @@
 GEM
   remote: https://www.rubygems.org/
   specs:
-    appium_lib (10.4.0)
+    appium_lib (10.4.1)
       appium_lib_core (~> 3.2)
       nokogiri (~> 1.8, >= 1.8.1)
       tomlrb (~> 1.1)
@@ -65,7 +65,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.8.0)
     rspec-support (3.8.2)
-    rubyzip (1.2.3)
+    rubyzip (1.2.4)
     selenium-webdriver (3.142.4)
       childprocess (>= 0.5, < 3.0)
       rubyzip (~> 1.2, >= 1.2.2)

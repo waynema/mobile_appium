@@ -4,18 +4,20 @@ Cucumber
 Appium
 
 
-Setup:
-    
-    bundle install
+Setup: 
+
+    (make sure Ruby and Bundler are configured and ready first)
+    >cd cucumber-tests
+    >bundle install
 
 Make sure appium is running in another terminal first:
 (or start appium from Appium Desktop UI)
 
-    appium 
+    >appium 
 
 Run tests:
 
-    cucumber OS=ios features/search.feature   
+    >cucumber OS=ios features/search.feature   
     
   -------------------  
     This test demonstrates the use of Appium Ruby Cucumber BDD framework to automate

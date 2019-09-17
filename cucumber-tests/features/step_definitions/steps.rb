@@ -15,12 +15,21 @@ Then(/^I tap button "(.*?)"$/) do |name|
   wait { button_exact(name) }.click
 end
 
+When(/^I tap thumbnail (\d+)$/) do |number|
+  wait { tags('XCUIElementTypeCell')[number] }.click
+end
+
 When(/^I tap text (\d+)$/) do |number|
   wait { text_exact(number.to_i) }.click
 end
 
 Then(/^I tap text "(.*?)"$/) do |name|
   wait { text_exact(name) }.click
+end
+
+Then(/^I should see class_name "(.*?)"$/) do |data|
+  found = wait { tag(data) }
+  expect(found.enabled? || found.displayed?).to be true
 end
 
 Then(/^I should not see "(.*?)"$/) do |data|
